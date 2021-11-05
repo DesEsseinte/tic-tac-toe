@@ -1,0 +1,50 @@
+body{
+    background-color:#a01b56;
+    text-align: center;
+  }
+  h1{
+    font-size: 30px;
+    font-family:monospace;
+    text-align: center;
+  }
+  button{
+    border-radius: 15px;
+    height:35px;
+    margin:1%;
+    font-family: monospace;
+
+  }
+      #opponentMenu{
+        border:1px solid black;
+        border-radius: 15px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        background-color: #a0a4f8fa;
+        width: 374px;
+        height:50px;
+      }
+
+
+    .alignContainer{
+      display:flex;
+      justify-content: center;
+    }
+    #boardContainer{
+      border:9px solid pink;
+      border-radius: 10px;
+      box-shadow: -2px -2px 45px;
+      display:flex;
+      flex-wrap: wrap;
+      height:370px;
+      width:374px;
+    }
+        .boardSquare{
+          height:120px;
+          width:120px;
+          margin:none;
+          border:2px solid darkblue;
+          font-size: 100px;
+          text-align: center;
+        }
